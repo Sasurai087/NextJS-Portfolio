@@ -62,6 +62,8 @@ const Header = () => (
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
     </Div3>
+
+    {/* End Container */}
   </Container>
 );
 
