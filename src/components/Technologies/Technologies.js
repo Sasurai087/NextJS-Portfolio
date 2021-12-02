@@ -15,7 +15,7 @@ import {
 } from "./TechnologiesStyles";
 
 const Technologies = () => (
-  <Section id="technologies">
+  <Section id="aboutme">
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>

@@ -17,7 +17,7 @@ const Header = () => (
   <Container>
     {/* Top left logo */}
     <Div1>
-      <Link href="/">
+      <Link passHref href="/">
         <a
           style={{
             display: "flex",

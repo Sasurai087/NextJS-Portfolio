@@ -31,7 +31,7 @@ const Projects = () => (
             {/* Images found in public/images folder */}
             <Img src={image} />
             <TitleContent>
-              <HeaderThree title>{title}</HeaderThree>
+              <HeaderThree title="true">{title}</HeaderThree>
               <Hr />
             </TitleContent>
             <CardInfo>{description}</CardInfo>
