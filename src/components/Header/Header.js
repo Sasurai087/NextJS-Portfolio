@@ -26,7 +26,7 @@ const Header = () => (
             marginBottom: "20px",
           }}
         >
-          <DiCssdeck size="3rem" /> <Span>Portfolio</Span>
+          <DiCssdeck size="3rem" /> <Span>James Ohsako</Span>
         </a>
       </Link>
     </Div1>
@@ -35,19 +35,19 @@ const Header = () => (
 
     <Div2>
       <li>
-        <Link href="#projects">
+        <Link passHref href="#projects">
           <NavLink>Projects</NavLink>
         </Link>
       </li>
 
       <li>
-        <Link href="#technologies">
-          <NavLink>Technologies</NavLink>
+        <Link passHref href="#aboutme">
+          <NavLink>About Me</NavLink>
         </Link>
       </li>
 
       <li>
-        <Link href="#contact">
+        <Link passHref href="#contact">
           <NavLink>Contact</NavLink>
         </Link>
       </li>
