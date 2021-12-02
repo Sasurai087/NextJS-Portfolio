@@ -3,17 +3,17 @@ export const projects = [
     title: "Forkify",
     description:
       "Simple and clean recipe application with features such as bookmarking favorite meals, changing serving sizes, and uploading custom recipes. Search recipes and cooking directions, pulls from a recipe API.",
-    image: "/images/prj-forkify.jpg",
+    image: "/images/prj-forkify2.jpg",
     tags: ["Javascript", "API", "MVC Architecture", "SASS"],
     source: "https://github.com/Sasurai087/forkify",
-    visit: "https://google.com",
+    visit: "https://johsako-forkify.netlify.app/",
     id: 0,
   },
   {
     title: "Dad Jokes",
     description:
       "Pull Dad Jokes from an API, send this page to your friends and collectively vote for your favorites. Which Dad Jokes will prevail amongst all else?",
-    image: "/images/prj-dadjokes.jpg",
+    image: "/images/prj-forkify2.jpg",
     tags: ["React", "JavaScript"],
     source: "https://google.com",
     visit: "https://google.com",
@@ -39,7 +39,18 @@ export const projects = [
     visit: "https://google.com",
     id: 3,
   },
+  {
+    title: "React Hangman",
+    description:
+      "Classic Hangman game with a paper and pencil aesthetic. Pulls from a list of 1500+ english words! Can you figure out the word before your stick figure friend kicks the bucket?",
+    image: "/images/prj-hang.jpg",
+    tags: ["React", "Class Components", "State Management"],
+    source: "https://github.com/Sasurai087/react-hangman",
+    visit: "https://react-hangman-sasurai.netlify.app/",
+    id: 4,
+  },
 ];
+
 export const demoProjects = [
   {
     title: "MERN Memories",
@@ -97,3 +108,23 @@ export const accomplishments = [
   { number: 1900, text: "Github Followers" },
   { number: 5000, text: "Github Stars" },
 ];
+
+// Future Projects to Include
+// {
+//   title: "Hobby Finder",
+//   description:
+//     "Yelp Clone made specifically with hobby enthusiasts in mind. From golf to laser tag to miniatures and board games, if you found an incredible hobby spot, come share it with our community! Uses Cloudinary for image hosting, user authentication to handle user submissions, comments, and reviews, which is stored in MongoDB. Also utilizes Google Map's API along with custom styles to deliver a cluster map. Easily one of my favorite full-stack projects built.",
+//   image: "/images/prj-forkify.jpg",
+//   tags: [
+//     "Javascript",
+//     "Express Router",
+//     "Mongo DB",
+//     "Authorization",
+//     "Image Upload",
+//     "Map API",
+//     "Cluster Map",
+//   ],
+//   source: "https://github.com/Sasurai087/forkify",
+//   visit: "https://google.com",
+//   id: 0,
+// },
