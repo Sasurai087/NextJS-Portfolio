@@ -3,11 +3,29 @@ export const projects = [
     title: "Forkify",
     description:
       "Simple and clean recipe application with features such as bookmarking favorite meals, changing serving sizes, and uploading custom recipes. Search recipes and cooking directions, pulls from a recipe API.",
-    image: "/images/prj-forkify2.jpg",
-    tags: ["Javascript", "API", "MVC Architecture", "SASS"],
+    tags: ["Javascript", "API", "MVC Architecture", "Pagination", "SASS"],
+    image: "/images/prj-dice3-rs.jpg",
     source: "https://github.com/Sasurai087/forkify",
     visit: "https://johsako-forkify.netlify.app/",
     id: 0,
+  },
+  {
+    title: "React Yahtzee!",
+    description:
+      "Classic dice game utilizing React Class Components and a healthy dose of states & props. Roll, lock, and score your way to beating my high score of 124!",
+    image: "/images/prj-forkify2-rs.jpg",
+
+    // image: "/images/prj-dice3.jpg",
+    tags: [
+      "React",
+      "Class Components",
+      "State Management",
+      "Animations",
+      "Prop",
+    ],
+    source: "https://github.com/Sasurai087/react-yahtzee",
+    visit: "https://react-yahtzee-sasurai.netlify.app/",
+    id: 1,
   },
   {
     title: "Dad Jokes",
@@ -17,7 +35,7 @@ export const projects = [
     tags: ["React", "JavaScript"],
     source: "https://google.com",
     visit: "https://google.com",
-    id: 1,
+    id: 2,
   },
   {
     title: "Movie Battle",
@@ -27,7 +45,7 @@ export const projects = [
     tags: ["Javascript", "API"],
     source: "https://google.com",
     visit: "https://google.com",
-    id: 2,
+    id: 3,
   },
   {
     title: "Budgety",
@@ -37,7 +55,7 @@ export const projects = [
     tags: ["Javascript"],
     source: "https://google.com",
     visit: "https://google.com",
-    id: 3,
+    id: 4,
   },
   {
     title: "React Hangman",
