@@ -1,43 +1,76 @@
 export const projects = [
   {
+    title: "Hobby Finder",
+    description:
+      "Yelp Clone made specifically with hobby enthusiasts in mind. From golf to laser tag to miniatures and board games, if you found an incredible hobby spot, come share it with our community! Uses Cloudinary for image hosting, user authentication to handle user submissions, comments, and reviews, which is stored in MongoDB. Also utilizes Google Map's API along with custom styles to deliver a cluster map. Easily one of my favorite full-stack projects built.",
+    image: "/images/prj-hobby.jpg",
+    tags: [
+      "Javascript",
+      "Express Router",
+      "Mongo DB",
+      "User Authorization",
+      "Validation",
+      "Image Upload",
+      "Map API",
+      "Cluster Map",
+    ],
+    source: "https://github.com/Sasurai087/hobby-finder",
+    visit: "https://hobby-finder.herokuapp.com/",
+    id: 32245,
+  },
+  {
     title: "Forkify",
     description:
       "Simple and clean recipe application with features such as bookmarking favorite meals, changing serving sizes, and uploading custom recipes. Search recipes and cooking directions, pulls from a recipe API.",
-    image: "/images/prj-forkify2.jpg",
-    tags: ["Javascript", "API", "MVC Architecture", "SASS"],
+    tags: [
+      "Javascript",
+      "API",
+      "MVC Architecture",
+      "Validation",
+      "Pagination",
+      "SASS",
+    ],
+    image: "/images/prj-forkify2-rs.jpg",
     source: "https://github.com/Sasurai087/forkify",
     visit: "https://johsako-forkify.netlify.app/",
-    id: 0,
+    id: 29345,
+  },
+  {
+    title: "Food Order App",
+    description:
+      "A mockup of a modern food ordering app that allows adding and removing items to a cart. Once users are ready to order, they can input their information which gets sent and stored on a firebase realtime database.",
+    image: "/images/prj-food.jpg",
+    tags: [
+      "React",
+      "Hooks",
+      "Firebase",
+      "Modals",
+      "Context State Management",
+      "Validation",
+    ],
+    source: "https://github.com/Sasurai087/food-order-app",
+    visit: "https://food-order-app-sasurai.netlify.app/",
+    id: 24991,
+  },
+  {
+    title: "React Yahtzee!",
+    description:
+      "Classic dice game utilizing React Class Components and a healthy dose of states & props. Roll, lock, and score your way to beating my high score of 124!",
+    image: "/images/prj-dice3-rs.jpg",
+    tags: ["React", "Class Components", "State Management", "Animations"],
+    source: "https://github.com/Sasurai087/react-yahtzee",
+    visit: "https://react-yahtzee-sasurai.netlify.app/",
+    id: 41002,
   },
   {
     title: "Dad Jokes",
     description:
-      "Pull Dad Jokes from an API, send this page to your friends and collectively vote for your favorites. Which Dad Jokes will prevail amongst all else?",
-    image: "/images/prj-forkify2.jpg",
-    tags: ["React", "JavaScript"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 1,
-  },
-  {
-    title: "Movie Battle",
-    description:
-      "Searches through an IMDB API for two movies of your choosing, then compares their stats while highlights which movie had the better feats. Was Marvel Avengers more successful than DC's Justice League?",
-    image: "/images/prj-movie.jpg",
-    tags: ["Javascript", "API"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 2,
-  },
-  {
-    title: "Budgety",
-    description:
-      "Quick and easy budgeting app with emphasis on clean UI and user experience",
-    image: "/images/prj-budgety.png",
-    tags: ["Javascript"],
-    source: "https://google.com",
-    visit: "https://google.com",
-    id: 3,
+      "Pull Dad Jokes from an API, vote whether you like or dislike a joke, then send a snapshot of your favorite jokes to your friends! Uses localstorage to keep track of personal votes. Which Dad Jokes will prevail amongst all else?",
+    image: "/images/prj-dadjokes.jpg",
+    tags: ["React", "Class Components", "State Management", "API"],
+    source: "https://github.com/Sasurai087/dad-jokes",
+    visit: "https://react-dadjokes-sasurai.netlify.app/",
+    id: 22344,
   },
   {
     title: "React Hangman",
@@ -47,7 +80,7 @@ export const projects = [
     tags: ["React", "Class Components", "State Management"],
     source: "https://github.com/Sasurai087/react-hangman",
     visit: "https://react-hangman-sasurai.netlify.app/",
-    id: 4,
+    id: 40705,
   },
 ];
 
@@ -110,21 +143,14 @@ export const accomplishments = [
 ];
 
 // Future Projects to Include
+
 // {
-//   title: "Hobby Finder",
+//   title: "Movie Battle",
 //   description:
-//     "Yelp Clone made specifically with hobby enthusiasts in mind. From golf to laser tag to miniatures and board games, if you found an incredible hobby spot, come share it with our community! Uses Cloudinary for image hosting, user authentication to handle user submissions, comments, and reviews, which is stored in MongoDB. Also utilizes Google Map's API along with custom styles to deliver a cluster map. Easily one of my favorite full-stack projects built.",
-//   image: "/images/prj-forkify.jpg",
-//   tags: [
-//     "Javascript",
-//     "Express Router",
-//     "Mongo DB",
-//     "Authorization",
-//     "Image Upload",
-//     "Map API",
-//     "Cluster Map",
-//   ],
-//   source: "https://github.com/Sasurai087/forkify",
-//   visit: "https://google.com",
-//   id: 0,
+//     "Search two movies of your choosing, then compares their stats while highlights which movie had the better feats. Was Marvel's Avengers more successful than DC's Justice League? Utilizes OMDB API.",
+//   image: "/images/prj-movie.jpg",
+//   tags: ["Javascript", "API", "Bulma CSS", "Font Awesome"],
+//   source: "hhttps://github.com/Sasurai087/movie-battle",
+//   visit: "https://movie-battle-sasurai.netlify.app/",
+//   id: 3,
 // },
