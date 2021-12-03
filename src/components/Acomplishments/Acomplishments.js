@@ -6,23 +6,38 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
-import { accomplishments } from "../../constants/constants";
 
 export const data = [
-  { number: 20, text: "Open Source Projects" },
-  { number: 1000, text: "Students" },
-  { number: 1900, text: "Github Followers" },
-  { number: 5000, text: "Github Stars" },
+  {
+    number: "Web Developer Bootcamp",
+    text: "https://www.udemy.com/course/the-web-developer-bootcamp/",
+  },
+  {
+    number: "Modern Javascript Bootcamp Course",
+    text: "https://www.udemy.com/course/javascript-beginners-complete-tutorial/",
+  },
+  {
+    number: "React - The Complete Guide (incl Hooks, React Router, Redux)",
+    text: "https://www.udemy.com/course/react-the-complete-guide-incl-redux/",
+  },
+  {
+    number: "Modern React with Redux",
+    text: "https://www.udemy.com/course/react-redux/",
+  },
+  {
+    number: "Complete JavaScript Course 2022: From Zero to Expert!",
+    text: "https://www.udemy.com/course/the-complete-javascript-course//",
+  },
 ];
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle>Personal Accomplishments</SectionTitle>
+    <SectionTitle>Education</SectionTitle>
 
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>
-          <BoxNum>{card.number}+</BoxNum>
+          <BoxNum>{card.number}</BoxNum>
           <BoxText>{card.text}</BoxText>
         </Box>
       ))}

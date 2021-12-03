@@ -1,5 +1,5 @@
 import React from "react";
-
+import Link from "next/link";
 import {
   Section,
   SectionText,
@@ -16,12 +16,11 @@ const Hero = (props) => (
         <br />
         Front-End Developer
       </SectionTitle>
-      <SectionText>
-        I build apps and do stuff - why should you hire me?
-      </SectionText>
-      <Button onClick={() => (window.location = "https://google.com")}>
-        My Projects
-      </Button>
+      <SectionText></SectionText>
+
+      <Link passHref href="#projects">
+        <Button>My Projects</Button>
+      </Link>
     </LeftSection>
   </Section>
 );

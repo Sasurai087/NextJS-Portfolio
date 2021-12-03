@@ -15,7 +15,6 @@ import {
 
 const Header = () => (
   <Container>
-    {/* Top left logo */}
     <Div1>
       <Link passHref href="/">
         <a
@@ -30,8 +29,6 @@ const Header = () => (
         </a>
       </Link>
     </Div1>
-
-    {/* Middle navbar */}
 
     <Div2>
       <li>
@@ -53,17 +50,14 @@ const Header = () => (
       </li>
     </Div2>
 
-    {/* Top right social icons */}
     <Div3>
-      <SocialIcons href="https://github.com">
+      <SocialIcons href="https://github.com/Sasurai087">
         <AiFillGithub size="3rem" />
       </SocialIcons>
-      <SocialIcons href="https://linkedin.com">
+      <SocialIcons href="https://www.linkedin.com/in/johsako/">
         <AiFillLinkedin size="3rem" />
       </SocialIcons>
     </Div3>
-
-    {/* End Container */}
   </Container>
 );
 

@@ -19,15 +19,14 @@ const Technologies = () => (
     <SectionDivider />
     <br />
     <SectionTitle>Technologies</SectionTitle>
-    <SectionText>What have done regarding dev?</SectionText>
-
+    <SectionText>I have experience with the following items: </SectionText>
     <List>
       <ListItem>
         <DiReact size="3rem" />
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            Experience with <br /> React.js
+            React.js Javascript(ES6/ES7) CSS Bootstrap Styled-Components
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -37,7 +36,17 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Experience with <br /> Node.js and MongoDB
+            Node.js ExpressJS MongoDB Firebase Python
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+
+      <ListItem>
+        <DiZend size="3rem" />
+        <ListContainer>
+          <ListTitle>Other</ListTitle>
+          <ListParagraph>
+            SugarCRM Trello Kanban Git Github Netlify
           </ListParagraph>
         </ListContainer>
       </ListItem>
