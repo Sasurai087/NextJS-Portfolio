@@ -26,7 +26,7 @@ export const data = [
   },
   {
     number: "Complete JavaScript Course 2022: From Zero to Expert!",
-    text: "https://www.udemy.com/course/the-complete-javascript-course//",
+    text: "https://www.udemy.com/course/the-complete-javascript-course/",
   },
 ];
 
@@ -38,7 +38,9 @@ const Acomplishments = () => (
       {data.map((card, index) => (
         <Box key={index}>
           <BoxNum>{card.number}</BoxNum>
-          <BoxText>{card.text}</BoxText>
+          <BoxText href={card.text} target="_blank">
+            {card.text}
+          </BoxText>
         </Box>
       ))}
     </Boxes>
