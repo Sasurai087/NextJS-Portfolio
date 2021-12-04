@@ -68,7 +68,8 @@ const Timeline = () => {
 
   return (
     <Section id="about">
-      <SectionTitle>About Me</SectionTitle>
+      <SectionDivider />
+      <SectionTitle main>About Me</SectionTitle>
       <SectionText>
         Hi there! I'm James, a self-taught developer who's dabbled in sales,
         restaurant server, and tech support. I aim to create win-win experiences
@@ -152,7 +153,6 @@ const Timeline = () => {
           </CarouselButton>
         ))}
       </CarouselButtons>
-      <SectionDivider />
     </Section>
   );
 };

@@ -32,7 +32,8 @@ export const data = [
 
 const Acomplishments = () => (
   <Section>
-    <SectionTitle>Education</SectionTitle>
+    <SectionDivider />
+    <SectionTitle main>Education</SectionTitle>
 
     <Boxes>
       {data.map((card, index) => (

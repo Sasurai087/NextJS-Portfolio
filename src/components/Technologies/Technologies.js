@@ -17,8 +17,7 @@ import {
 const Technologies = () => (
   <Section id="aboutme">
     <SectionDivider />
-    <br />
-    <SectionTitle>Technologies</SectionTitle>
+    <SectionTitle main>Technologies</SectionTitle>
     <SectionText>I have experience with the following items: </SectionText>
     <List>
       <ListItem>
