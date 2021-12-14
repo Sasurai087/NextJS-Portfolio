@@ -12,7 +12,10 @@ import {
   TitleContent,
   UtilityList,
   Img,
+  ImageLinks,
+  ExternalWrapper,
 } from "./ProjectsStyles";
+import { AiFillGithub, AiFillPlayCircle } from "react-icons/ai";
 import {
   Section,
   SectionDivider,
@@ -29,7 +32,9 @@ const Projects = () => (
         ({ id, image, title, source, description, tags, visit }) => (
           <BlogCard key={id}>
             {/* Images found in public/images folder */}
-            <Img src={image} />
+            <ImageLinks href={visit} target="_blank">
+              <Img src={image} />
+            </ImageLinks>
             <TitleContent>
               <HeaderThree isTitle>{title}</HeaderThree>
               <Hr />
@@ -44,8 +49,18 @@ const Projects = () => (
               </TagList>
             </div>
             <UtilityList>
-              <ExternalLinks href={visit}>Demo</ExternalLinks>
-              <ExternalLinks href={source}>Github</ExternalLinks>
+              <ExternalLinks href={visit} target="_blank">
+                <ExternalWrapper>
+                  <AiFillPlayCircle size="1.8rem" />
+                  Demo
+                </ExternalWrapper>
+              </ExternalLinks>
+              <ExternalLinks href={source} target="_blank">
+                <ExternalWrapper>
+                  <AiFillGithub size="1.8rem" />
+                  Github
+                </ExternalWrapper>
+              </ExternalLinks>
             </UtilityList>
           </BlogCard>
         )

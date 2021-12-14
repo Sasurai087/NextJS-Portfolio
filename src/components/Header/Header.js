@@ -1,6 +1,6 @@
 import Link from "next/link";
 import React from "react";
-import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 import { DiCssdeck } from "react-icons/di";
 
 import {
@@ -10,23 +10,16 @@ import {
   Div3,
   NavLink,
   SocialIcons,
-  Span,
+  Logo,
 } from "./HeaderStyles";
 
 const Header = () => (
   <Container>
     <Div1>
       <Link passHref href="/">
-        <a
-          style={{
-            display: "flex",
-            alignItems: "center",
-            color: "white",
-            marginBottom: "20px",
-          }}
-        >
-          <DiCssdeck size="3rem" /> <Span>James Ohsako</Span>
-        </a>
+        <Logo>
+          <DiCssdeck size="3rem" /> James Ohsako
+        </Logo>
       </Link>
     </Div1>
 

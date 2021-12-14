@@ -77,11 +77,10 @@ const Timeline = () => {
         <br />
         <br />
         I also love playing and teaching board games of all kinds. My most
-        recently played board game is Dice Forge, which has a unique mechanic
-        where you physically alter your dice.
+        recently played board game is Dice Forge.
         <br />
         <br />
-        Think I might be a good fit for your team?
+        Think I might be a good fit for your team? Let's get in touch!
         <br />
       </SectionText>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>

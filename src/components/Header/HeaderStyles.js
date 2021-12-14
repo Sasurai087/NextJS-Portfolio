@@ -45,11 +45,20 @@ export const Div3 = styled.div`
   }
 `;
 
-export const Span = styled.span`
+// Navigation Link
+export const Logo = styled.a`
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-bottom: 20px;
   font-size: 2rem;
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    transition: 0.5s;
+    font-size: 1.8rem;
+  }
 `;
 
-// Navigation Links
 export const NavLink = styled.a`
   font-size: 2rem;
   line-height: 32px;
@@ -60,8 +69,13 @@ export const NavLink = styled.a`
     opacity: 1;
     cursor: pointer;
   }
+  @media ${(props) => props.theme.breakpoints.md} {
+    font-size: 1.5rem;
+    margin-right: 1rem;
+  }
   @media ${(props) => props.theme.breakpoints.sm} {
-    padding: 0.5rem;
+    transition: 0.5s;
+    display: none;
   }
 `;
 

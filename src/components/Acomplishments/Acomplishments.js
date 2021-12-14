@@ -5,7 +5,13 @@ import {
   SectionDivider,
   SectionTitle,
 } from "../../styles/GlobalComponents";
-import { Box, Boxes, BoxNum, BoxText } from "./AcomplishmentsStyles";
+import {
+  Box,
+  Boxes,
+  BoxNum,
+  BoxText,
+  EducationText,
+} from "./AcomplishmentsStyles";
 
 export const data = [
   {
@@ -35,6 +41,17 @@ const Acomplishments = () => (
     <SectionDivider />
     <SectionTitle main>Education</SectionTitle>
 
+    <EducationText>Univeristy</EducationText>
+    <Boxes>
+      <Box key="csulb">
+        <BoxNum>Bachelor of Arts in Communication Studies</BoxNum>
+        <BoxText href="https://www.csulb.edu/" target="_blank">
+          California State University of Long Beach
+        </BoxText>
+      </Box>
+    </Boxes>
+
+    <EducationText>Online Courses</EducationText>
     <Boxes>
       {data.map((card, index) => (
         <Box key={index}>

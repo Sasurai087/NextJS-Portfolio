@@ -57,11 +57,18 @@ export const BoxNum = styled.h5`
 export const BoxText = styled.a`
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
+  text-decoration: underline;
+  font-size: 1.6rem;
   line-height: 24px;
   letter-spacing: 0.02em;
   color: rgba(255, 255, 255, 0.75);
   cursor: pointer;
+
+  :hover {
+    font-size: 1.8rem;
+    color: rgba(255, 255, 255, 0.95);
+    transition: 0.2s;
+  }
 
   @media ${(props) => props.theme.breakpoints.md} {
     font-size: 16px;
@@ -120,5 +127,21 @@ export const IconContainer = styled.div`
   @media ${(props) => props.theme.breakpoints.sm} {
     width: 160px;
     justify-content: space-between;
+  }
+`;
+
+export const EducationText = styled.p`
+  font-size: 3rem;
+  line-height: 40px;
+  font-weight: 500;
+  color: rgba(255, 255, 255, 0.7);
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    max-width: 670px;
+    font-size: 20px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    font-size: 16px;
   }
 `;

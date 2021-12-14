@@ -5,6 +5,16 @@ export const Img = styled.img`
   height: 100%;
   object-fit: cover;
   overflow: hidden;
+  border: 0.2rem solid rgba(80, 78, 78, 0.5);
+  border-radius: 0.5rem;
+  transition: 0.5s;
+  filter: brightness(0.7);
+
+  &:hover {
+    transform: scale(1.1);
+    transition: 0.5s;
+    filter: brightness(1);
+  }
 `;
 
 export const GridContainer = styled.section`
@@ -83,25 +93,48 @@ export const UtilityList = styled.ul`
 `;
 
 export const ExternalLinks = styled.a`
-  color: #d4c0c0;
+  color: #fff;
+  text-decoration: underline;
+  border: 2px solid #fff;
+  box-sizing: inherit;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 13pt;
+  padding: 10px 20px;
+  transition: all 0.5s;
+
+  :hover {
+    background-color: #42a5f5;
+  }
+
+  /* color: #d4c0c0;
   font-size: 1.6rem;
   padding: 1rem 1.5rem;
   background: #6b3030;
-  border-radius: 15px;
+  border-radius: 4px;
   transition: 0.5s;
   &:hover {
     background: #801414;
-  }
+  } */
 `;
 
+export const ExternalWrapper = styled.div`
+  display: flex;
+`;
+
+export const ImageLinks = styled.a``;
+
 export const TagList = styled.ul`
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  list-style: none;
   padding: 2rem;
 `;
+
 export const Tag = styled.li`
-  color: #d8bfbf;
-  font-size: 1.5rem;
-  padding-bottom: 1rem;
-  text-decoration: underline;
+  display: inline-block;
+  font-size: 1.3rem;
+  padding: 0.5rem;
+  margin: 0 5px 5px 0;
+  border-radius: 8px;
+  color: #fff;
+  background-color: rgb(107, 48, 48);
 `;

@@ -6,14 +6,15 @@ import {
   SectionTitle,
 } from "../../styles/GlobalComponents";
 import Button from "../../styles/GlobalComponents/Button";
-import { LeftSection } from "./HeroStyles";
+import { LeftSection, Name } from "./HeroStyles";
 
 const Hero = (props) => (
   <Section row noPadding>
     <LeftSection>
-      <SectionTitle main center>
+      <Name main center>
         James Ohsako
-        <br />
+      </Name>
+      <SectionTitle main center>
         Front-End Developer
       </SectionTitle>
       <SectionText>
