@@ -71,13 +71,14 @@ const Timeline = () => {
       <SectionDivider />
       <SectionTitle main>About Me</SectionTitle>
       <SectionText>
-        Hi there! I'm James, a self-taught developer who's dabbled in sales,
-        restaurant server, and tech support. I aim to create win-win experiences
-        with my combo of tech and comnmunication skills.
+        Hi there! I'm James, a self-taught developer who's dabbled in market
+        research, tech support and sales. I blend my experiences working
+        frontline customer service and backend technical support to provide
+        exceptional customer success.
         <br />
-        <br />
-        I also love playing and teaching board games of all kinds. My most
-        recently played board game is Dice Forge.
+        <br />I also love playing and teaching board games of all kinds. Are you
+        a fellow board game enthusiast?{" "}
+        <a href="https://boardgamegeek.com/user/Sasurai087">Add me on BGG!</a>
         <br />
         <br />
         Think I might be a good fit for your team? Let's get in touch!

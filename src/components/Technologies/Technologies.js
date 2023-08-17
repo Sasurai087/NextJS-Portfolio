@@ -25,7 +25,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Front-End</ListTitle>
           <ListParagraph>
-            React.js Javascript(ES6/ES7) CSS Bootstrap Styled-Components
+            Medallia Qualtrics React.js Javascript(ES6/ES7) CSS Bootstrap
+            Styled-Components
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -35,7 +36,8 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Back-End</ListTitle>
           <ListParagraph>
-            Node.js ExpressJS MongoDB Firebase Python
+            Medallia(Admin Suite) Medallia(Classic Setup) Node.js ExpressJS
+            MongoDB Firebase Python
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -45,7 +47,7 @@ const Technologies = () => (
         <ListContainer>
           <ListTitle>Other</ListTitle>
           <ListParagraph>
-            SugarCRM Trello Kanban Git Github Netlify
+            ProofHub GSuite SugarCRM Trello Kanban Git Github Netlify
           </ListParagraph>
         </ListContainer>
       </ListItem>

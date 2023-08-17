@@ -41,7 +41,7 @@ const Acomplishments = () => (
     <SectionDivider />
     <SectionTitle main>Education</SectionTitle>
 
-    <EducationText>Univeristy</EducationText>
+    <EducationText>University</EducationText>
     <Boxes>
       <Box key="csulb">
         <BoxNum>Bachelor of Arts in Communication Studies</BoxNum>

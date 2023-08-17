@@ -15,7 +15,7 @@ export const projects = [
       "Cluster Map",
     ],
     source: "https://github.com/Sasurai087/hobby-finder",
-    visit: "https://hobby-finder.herokuapp.com/",
+    visit: "https://hobby-finder.onrender.com",
     id: 32245,
   },
   {
@@ -85,17 +85,25 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2016, text: "First experience handling providing technical support" },
-  { year: 2017, text: "Exposure to Python and Unity" },
-  { year: 2018, text: "Began programming and modding as a hobby" },
   {
-    year: 2020,
-    text: "Pivoted to front-end development after becoming fascinated with React",
+    year: 2023,
+    text: "Transitioned to Solutions Analyst, focusing on configuring Medallia & Qualtrics programs for client teams",
+  },
+  {
+    year: 2022,
+    text: "As Associate Program Manager, learned and utilized Medallia while juggling multiple clients",
   },
   {
     year: 2021,
     text: "Completed various front-end React and Javascript courses and projects",
   },
+  {
+    year: 2020,
+    text: "Pivoted to learning front-end development after discovering React",
+  },
+  { year: 2018, text: "Began programming and modding as a hobby" },
+  { year: 2017, text: "Tinkering with Python and Unity" },
+  { year: 2016, text: "First experience providing technical support" },
 ];
 
 // Future Projects to Include
